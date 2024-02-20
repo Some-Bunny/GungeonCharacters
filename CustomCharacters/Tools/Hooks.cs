@@ -97,7 +97,7 @@ namespace CustomCharacters
                 if (customChar.data.punchoutFaceCards != null)
                 {
                     self.PlayerUiSprite.SpriteName = customChar.data.nameInternal + "_punchout_facecard" + index;
-                    Tools.Print(self.PlayerUiSprite.SpriteName);
+                    //Tools.Print(self.PlayerUiSprite.SpriteName);
                 }
             }
         }

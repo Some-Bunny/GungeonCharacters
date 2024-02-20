@@ -256,7 +256,7 @@ namespace CustomCharacters
 
 					if (def != null) {
 						def.ReplaceTexture(tex);
-						Console.WriteLine($"REPLACED {def.name} {def.material.mainTexture.width} {def.material.mainTexture.height}");
+						//Console.WriteLine($"REPLACED {def.name} {def.material.mainTexture.width} {def.material.mainTexture.height}");
 					}
                 }
                 facecard.sprite.Collection = copyCollection;
@@ -271,15 +271,15 @@ namespace CustomCharacters
                     }
                 }
 
-				Console.WriteLine($"FOYERCARDDBG");
+				//Console.WriteLine($"FOYERCARDDBG");
 				for (int i = 0; i < copyCollection.spriteDefinitions.Length; i++)
 				{
 					var def = copyCollection.spriteDefinitions[i];
-					Console.WriteLine(def.name);
+					//Console.WriteLine(def.name);
 					if (!def.name.Contains("facecard")) continue;
 
-					Console.WriteLine("FACECARD");
-					Console.WriteLine($"{def.material.mainTexture.width} {def.material.mainTexture.height} {def.uvs[0].x},{def.uvs[0].y} {def.uvs[1].x},{def.uvs[1].y} {def.uvs[2].x},{def.uvs[2].y} {def.uvs[3].x},{def.uvs[3].y} ");
+					//Console.WriteLine("FACECARD");
+					//Console.WriteLine($"{def.material.mainTexture.width} {def.material.mainTexture.height} {def.uvs[0].x},{def.uvs[0].y} {def.uvs[1].x},{def.uvs[1].y} {def.uvs[2].x},{def.uvs[2].y} {def.uvs[3].x},{def.uvs[3].y} ");
 
 
 				}
